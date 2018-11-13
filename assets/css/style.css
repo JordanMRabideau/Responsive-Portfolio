@@ -24,11 +24,18 @@ header {
 }
 
 footer {
-    background: #666666
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
 }
 
 #mainContent {
     border-color: #dddddd;
+    background: #ffffff;
     width: 960px;
     margin: 0 151px;
+}
+
+div {
+    padding: 1px;
+    background-image: url(../images/circuit/circuit.png)
 }
