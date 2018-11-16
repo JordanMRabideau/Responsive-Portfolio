@@ -66,6 +66,7 @@ h2 {
     margin-right: 10px;
     border-bottom: 1px gray solid;
     padding: 10px;
+    color: #4aaaa5;
 }
 
 #bio-picture {
@@ -90,13 +91,52 @@ div {
     margin-bottom: 12px;
 }
 
-
 form {
     margin: 0 10px 10px 10px;
 }
 
-#name,
-#email,
-#messageBox {
+
+input,
+textarea {
     width: 100%;
+    margin-bottom: 5px;
+}
+
+#messageBox {
+    resize: none;
+    height: 150px;
+}
+
+#button {
+    width: 10%;
+}
+
+#bioText {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.images {
+    position:relative;
+    float: left;
+    height: auto;
+    width:200px;
+    margin-left: 10px;
+}
+
+img {
+    border: 1px solid #cccccc;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ .imageText {
+    margin-left: 1px;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 10px;
+    background: #4aaaa5;
+    color: white;
+    width: 100%;
+    text-align: center;
 }
