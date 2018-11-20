@@ -116,11 +116,16 @@ textarea {
     color: #777777;
 }
 
+.gallery {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .images {
-    position:relative;
-    float: left;
+    position: relative;
     height: auto;
-    width:200px;
+    width: 215px;
     margin-left: 10px;
 }
 
